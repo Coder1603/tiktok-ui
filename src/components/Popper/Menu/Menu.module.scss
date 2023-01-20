@@ -1,0 +1,31 @@
+.content {
+    width: 240px;
+    .menu-item {
+        font-weight: 600;
+    }
+}
+
+.header {
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    margin-top: -8px;
+}
+
+.onBack {
+    font-size: 1.8rem;
+    width: 68px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.title-language {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}

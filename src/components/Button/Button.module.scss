@@ -4,26 +4,52 @@
     padding: 0 16px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    font-weight: 600;
     font-size: 1.5rem;
     cursor: pointer;
     border-radius: 4px;
+    background-color: #fff;
+    font-weight: 600;
 }
 
 .primary {
+    justify-content: space-between;
     background-color: rgba(254, 44, 85, 1);
     color: #fff;
+
     &:hover {
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), #fe2c55;
     }
 }
 
 .upload {
+    justify-content: space-between;
     border: 1px solid rgba(var(--primary-color), 0.12);
     border-radius: 2px;
-    background-color: #fff;
+
     &:hover {
         background-color: rgba(var(--primary-color), 0.03);
     }
+}
+
+.menu {
+    padding: 12px 8px 12px 16px;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    display: flex;
+    width: 100%;
+    line-height: 18px;
+    &:hover {
+        background: rgba(var(--primary-color), 0.03);
+    }
+}
+
+.left-icon {
+    margin-right: 8px;
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    text-align: left;
+    border-radius: 0;
 }
